@@ -1,0 +1,86 @@
+// page style for Login
+
+/*
+.userLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+ion-content{
+    --background: #d9d9d9e3;
+}
+*/
+
+ion-content{
+    --background: #d9d9d9e3;
+}
+@at-root.grid1 {
+    height: 100%;
+    padding: 0px;
+}
+.row1{
+    h1{
+        color: rgb(240, 35, 35);
+    }
+}
+
+.contaier-login {
+    width: 65%;
+    padding: 5px;
+    //background: #d9d9d9e3;
+
+    border-radius: 5px;
+    //-webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+    //-moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+}
+
+
+.row1 {
+    height: 50%;
+    background: -moz-linear-gradient(45deg, rgb(244, 32, 32) 0%, rgba(182, 8, 8, 0.8) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(244, 32, 32, 1) 0%, rgba(182, 8, 8, 0.8) 100%);
+    background: linear-gradient(45deg, rgba(244, 32, 32, 1) 0%, rgba(182, 8, 8, 0.8) 100%);
+}
+
+
+.row2 {
+    height: 50%;
+}
+
+ion-icon {
+    margin-right: 15px;
+}
+
+
+ion-button {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+ion-slide {
+    width: 100%;
+    height: 100%;
+    position: absolute !important;
+    top: 0px !important;
+}
+
+ion-item{
+    //--placeholder-color:black;	
+   // --background:white;
+    --color:black;
+}
+
+ion-input{
+    border-radius: 10px !important;
+    padding-right: 30px;
+    font-size: 0.9em;
+    border: 1px solid #e2dcdc !important;
+    --background: rgb(255, 255, 255) !important;
+    /* height: 10%; */
+    /* width: 41%; */
+    max-width: 50vw; // this is applying perfectly
+    max-height: 7vh;
+}
