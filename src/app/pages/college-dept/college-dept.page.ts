@@ -10,7 +10,7 @@ import { Router } from '@angular/router'; // added
 })
 export class CollegeDeptPage implements OnInit {
 
-// Added
+// Added . papuntang com-sci page
   constructor(private route: Router) { }
   ComSci() {
     this.route.navigate(['/com-sci']);

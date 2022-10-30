@@ -20,6 +20,11 @@ ion-toolbar{
 }
 //center / 100% no-repeat;
 
-
-
-
+// bg color of ion-card
+ion-card {
+    --background: rgb(255, 255, 255);
+}
+// font color of ion-card-title, ion-card-subtitle
+ion-card-title, ion-card-subtitle{
+    --color: #000000;
+}
