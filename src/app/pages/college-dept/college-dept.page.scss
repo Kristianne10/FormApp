@@ -23,8 +23,18 @@ ion-toolbar{
 // bg color of ion-card
 ion-card {
     --background: rgb(255, 255, 255);
+    font-family: 'Times New Roman';
 }
 // font color of ion-card-title, ion-card-subtitle
 ion-card-title, ion-card-subtitle{
     --color: #000000;
+}
+
+
+ion-icon {
+    color: #b90d0d;
+    
+}
+ion-tab-bar, ion-tab-button{
+  background-color: #ffffff;
 }

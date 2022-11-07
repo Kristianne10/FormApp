@@ -12,7 +12,7 @@ const routes: Routes = [
     path: 'login',
     loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule)
   },
-/*
+
   {
     path: 'college-dept',
     loadChildren: () => import('./pages/college-dept/college-dept.module').then( m => m.CollegeDeptPageModule)
@@ -21,11 +21,11 @@ const routes: Routes = [
     path: 'user-profile',
     loadChildren: () => import('./pages/user-profile/user-profile.module').then( m => m.UserProfilePageModule)
   },
-  */
-  {
-    path: 'formana-tabnav',
-    loadChildren: () => import('./pages/formana-tabnav/formana-tabnav.module').then( m => m.FormanaTabnavPageModule)
-  },
+  
+  // {
+  //   path: 'formana-tabnav',
+  //   loadChildren: () => import('./pages/formana-tabnav/formana-tabnav.module').then( m => m.FormanaTabnavPageModule)
+  // },
   {
     path: 'com-sci',
     loadChildren: () => import('./pages/com-sci/com-sci.module').then( m => m.ComSciPageModule)

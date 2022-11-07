@@ -15,7 +15,14 @@ export class CollegeDeptPage implements OnInit {
   ComSci() {
     this.route.navigate(['/com-sci']);
   }
- ////////////////////// 
+
+  toUserProfile() {
+    this.route.navigate(['/user-profile']);
+  }
+
+  exit() {
+    this.route.navigate(['/login']);
+  }
 
   /*
   constructor() { }
